@@ -1,0 +1,223 @@
+:root{
+    --first-text-color:#FFFFFF;
+    --second-text-color:#2E2F42;
+    --third-text-color:#434455;
+}
+body{
+font-family: 'Roboto', sans-serif;
+}
+.list {
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/*-----------------HEADER--------------- */
+.header-site{
+    background-color:var(--first-text-color);
+}
+.header-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--second-text-color);
+}
+.header-logo-item {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.header-link {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--second-text-color);
+}
+.header-mail {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--third-text-color);
+}
+.header-tel {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color:var(--third-text-color);
+}
+/*-----------------MAIN S-1--------------- */
+.hero {
+    background-color: var(--second-text-color);
+}
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--first-text-color);
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color:var(--first-text-color);
+    background:#4D5AE5;
+}
+/*-----------------MAIN S-2--------------- */
+.solution {  
+    background-color:var(--first-text-color); 
+}
+.solution-list {
+}
+.solution-item {
+}
+.solution-pre-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+.solution-item-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--third-text-color);
+}
+/*-----------------MAIN S-3--------------- */
+.work {
+    background-color:var(--first-text-color);
+}
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--second-text-color);
+}
+.work-list {
+}
+.work-item {
+}
+/*-----------------MAIN S-4--------------- */
+.team {
+    background-color:#F4F4FD;
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color:var(--second-text-color) ;
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-img {
+}
+.team-item-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--second-text-color);
+}
+.team-item-position {
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color:var(--third-text-color);
+}
+/*-----------------FOOTER--------------- */
+.footer-site{
+ background-color: var(--second-text-color);
+}
+.footer-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#F4F4FD;
+}
+.foter-logo-item {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+/*-----------------PORTFOLIO--------------- */
+.chose {
+}
+.chose-list {
+}
+.chose-item {
+}
+.chose-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background:#F4F4FD;
+}
+.chose-btn:hover{
+color: #FFFFFF;
+background:#404BBF;
+cursor: pointer;
+}
+.gallery {
+}
+.gallery-list {
+}
+.gallery-item {
+}
+.gallery-item-pretitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--second-text-color);
+}
+.gallery-item-position {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--third-text-color);
+}

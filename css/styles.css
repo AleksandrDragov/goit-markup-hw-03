@@ -44,6 +44,7 @@ body {
   background-color: var(--first-text-color);
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-site > .container {
   display: flex;
@@ -53,7 +54,7 @@ body {
   display: flex;
   align-items: center;
   margin-right: auto;
-  gap: 40px;
+  gap: 76px;
 }
 .header-list {
   display: flex;
@@ -98,6 +99,7 @@ body {
   text-transform: uppercase;
   color: var(--third-text-color);
 }
+
 /*-----------------MAIN S-1--------------- */
 .hero {
   background-color: var(--second-text-color);
@@ -142,6 +144,7 @@ body {
   gap: 24px;
 }
 .solution-item {
+  width: 264px;
 }
 .solution-pre-title {
   font-weight: 500;
@@ -149,6 +152,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .solution-item-text {
   font-size: 16px;
@@ -181,6 +185,7 @@ body {
 /*-----------------MAIN S-4--------------- */
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 .team-title {
@@ -221,6 +226,9 @@ body {
   margin-top: 8px;
   margin-bottom: 32px;
 }
+.team-item-padding {
+  padding: 32px 16px 32px 16px;
+}
 /*-----------------FOOTER--------------- */
 .footer-site {
   background-color: var(--second-text-color);
@@ -257,9 +265,19 @@ body {
   margin-top: 16px;
 }
 /*-----------------PORTFOLIO--------------- */
-.chose {
+.header-site-portfolio {
+  background-color: var(--first-text-color);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-site-portfolio > .container {
+  display: flex;
+  align-items: center;
+}
+.section-portfolio {
   padding-top: 96px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 .chose-list {
   display: flex;
@@ -288,21 +306,19 @@ body {
   cursor: pointer;
 }
 .gallery {
-  padding-bottom: 120px;
 }
 .gallery-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
-}
-.gallery-item:nth-child(-n + 6) {
-  margin-bottom: 48px;
+  margin-top: 72px;
 }
 .gallery-item {
   width: 360px;
   height: 420px;
   border: 1px solid #e7e9fc;
+  margin-bottom: 48px;
 }
 .gallery-item-pretitle {
   font-weight: 500;

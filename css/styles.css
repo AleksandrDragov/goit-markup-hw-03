@@ -326,7 +326,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  margin-top: 32px;
   margin-bottom: 8px;
   padding-left: 16px;
 }
@@ -336,4 +335,10 @@ body {
   letter-spacing: 0.02em;
   padding-left: 16px;
   color: var(--third-text-color);
+}
+.gallery-item-padding {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 54px;
 }
